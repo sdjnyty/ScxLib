@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScxLib", "ScxLib.csproj", "{01D0D666-C9B8-4A25-9B28-3D2D3F3B2F29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScxLib", "ScxLib\ScxLib.csproj", "{01D0D666-C9B8-4A25-9B28-3D2D3F3B2F29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
