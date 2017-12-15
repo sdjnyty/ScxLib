@@ -135,8 +135,8 @@ namespace YTY.ScxLib
                 Size = dr.ReadInt32(),
                 Width = dr.ReadInt32(),
                 Height = dr.ReadInt32(),
-                Planes = dr.ReadInt32(),
-                BitCount = dr.ReadInt32(),
+                Planes = dr.ReadInt16(),
+                BitCount = dr.ReadInt16(),
                 Compression = dr.ReadInt32(),
                 SizeImage = dr.ReadInt32(),
                 XPelsPerMeter = dr.ReadInt32(),
@@ -735,8 +735,8 @@ namespace YTY.ScxLib
     public int Size { get; set; }
     public int Width { get; set; }
     public int Height { get; set; }
-    public int Planes { get; set; }
-    public int BitCount { get; set; }
+    public short Planes { get; set; }
+    public short BitCount { get; set; }
     public int Compression { get; set; }
     public int SizeImage { get; set; }
     public int XPelsPerMeter { get; set; }
